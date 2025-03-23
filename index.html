@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulary Reminder</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+            rel="stylesheet"
+            href="https://pyscript.net/snapshots/2024.9.2/core.css"
+        />
+        <script
+            type="module"
+            src="https://pyscript.net/snapshots/2024.9.2/core.js"
+        ></script>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Vocabulary Reminder</h1>
+    </header>
+    <main>
+      <p>Click the button below for daily vocabulary notifications.</p>
+      <button id="enable-notifications">Enable Notifications</button>
+
+      <div id="current-word" class="hidden">
+        <h2 id="word">Word</h2>
+        <p id="meaning">Meaning: <span id="definition"></span></p>
+        <p id="example">Example: <span id="sentence"></span></p>
+      </div>
+
+      <section id="add-word-section">
+        <h2>Add a New Word</h2>
+        <input type="text" id="new-word" placeholder="Word" required />
+        <input type="text" id="new-meaning" placeholder="Meaning" required />
+        <input type="text" id="new-example" placeholder="Example Sentence" required />
+        <button id="add-word-btn">Add Word</button>
+      </section>
+
+      <section id="word-list-section">
+        <h2>Your Vocabulary List</h2>
+        <ul id="word-list"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <py-script src="app.py"></py-script>
+</body>
+</html>
+      
