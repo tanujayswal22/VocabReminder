@@ -1,12 +1,8 @@
 Vocabulary Reminder
 
-A full-stack web application to help users grow their vocabulary by getting hourly word notifications and maintaining a personal vocabulary list. Users can add new words, view a random word with its meaning and example, and receive periodic desktop notifications.
+A web application to help users grow their vocabulary by getting hourly word notifications and maintaining a personal vocabulary list. Users can add new words, view a random word with its meaning and example, and receive periodic desktop notifications.
 
-![Screenshot](screenshot.png)
-
----
-
-## 🚀 Features
+ Features
 
 - 📖 **Add New Words** with meanings and example sentences.
 - 🧠 **Hourly Word Notifications** via browser notifications.
@@ -14,9 +10,8 @@ A full-stack web application to help users grow their vocabulary by getting hour
 - 🌐 **React + Flask + SQLite** stack.
 - 🎨 Clean and responsive UI using modern React and CSS.
 
----
 
-## 🛠️ Technologies Used
+ Technologies Used
 
 ### Frontend
 - React.js (with Hooks)
