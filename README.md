@@ -4,11 +4,11 @@ A web application to help users grow their vocabulary by getting hourly word not
 
  Features
 
-- 📖 **Add New Words** with meanings and example sentences.
-- 🧠 **Hourly Word Notifications** via browser notifications.
-- 📋 **Live Word List** display from a database (no localStorage).
-- 🌐 **React + Flask + SQLite** stack.
-- 🎨 Clean and responsive UI using modern React and CSS.
+- **Add New Words** with meanings and example sentences.
+- **Hourly Word Notifications** via browser notifications.
+- **Live Word List** display from a database (no localStorage).
+- **React + Flask + SQLite** stack.
+-  Clean and responsive UI using modern React and CSS.
 
 
  Technologies Used
@@ -23,3 +23,10 @@ A web application to help users grow their vocabulary by getting hourly word not
 - Flask-CORS
 - Flask-SQLAlchemy
 - SQLite database
+
+Notification Logic
+Sends a browser notification every hour with a random word.
+
+Uses the browser's Notification API after permission is granted.
+
+
