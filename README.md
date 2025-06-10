@@ -14,7 +14,7 @@ A web application to help users grow their vocabulary by getting hourly word not
  Technologies Used
 
 ### Frontend
-- React.js (with Hooks)
+- HTML/CSS/Javascript
 - Axios for API requests
 - CSS for styling
 
@@ -25,8 +25,9 @@ A web application to help users grow their vocabulary by getting hourly word not
 - SQLite database
 
 Notification Logic
-Sends a browser notification every hour with a random word.
 
-Uses the browser's Notification API after permission is granted.
+-Sends a browser notification every hour with a random word.
+
+-Uses the browser's Notification API after permission is granted.
 
 
